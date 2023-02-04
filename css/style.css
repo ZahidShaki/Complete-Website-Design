@@ -1,0 +1,130 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body{
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+img{
+	max-width: 100%;
+}
+header{
+	
+background-color: #bee3f8;
+}
+nav {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+p{
+	margin: 0;
+	font-size: 20px;
+}
+nav .logo {
+    flex-basis: 20%;
+}
+nav .menu {
+    flex-basis: 80%;
+}
+.menu a {
+    color: #2d374c;
+    font-size: 20px;
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    font-weight: 500;
+  
+}
+.menu a:hover{
+
+background-color: #4299e1;
+
+color: #e2e8f0;
+}
+.logo img {
+    width: 100px;
+}
+.hero-banner {
+    background-image: url(../images/banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 200px 0;
+}
+.hero-banner-content {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+.hero-banner-content h1 {
+    font-size: 70px;
+    font-weight: 750;
+    margin: 0;
+    line-height: 1.2;
+    max-width: 579px;
+    color: #4299e1;
+}
+h2{
+	width: 490px;
+	margin: 81px auto;
+	display: block;
+	font-size: 55px;
+	text-align: center;
+	background: linear-gradient(105deg, rgba(66,153,225,1) 50%, rgba(45,55,76,1) 50%);
+	color: #e2e8f0;
+	border-radius: 21px;
+	box-shadow: 0px 0px 15px #2d374c;
+}
+
+iframe{
+	
+width: 950px;
+	
+margin: 80px auto;
+	
+display: block;
+	
+border-radius: 21px;
+	
+box-shadow: 0px 0px 15px #4299e1;
+}
+
+.gallery-section{
+	padding: 80px 0;
+	background: rgb(66,153,225);
+background: linear-gradient(253deg, rgba(66,153,225,1) 50%, rgba(45,55,76,1) 50%);
+}
+.gallery{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery div{
+    flex-basis: 25%;
+    padding: 05px;
+    box-sizing: border-box;
+}
+.gallery div img{
+    display: block;
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px red;
+}
+
+
+footer{margin: 0 auto;padding: 24px;text-align: center;background-color: #2c3748;}
+
+footer p{margin: 0 auto;font-size: 15px;letter-spacing: 1px;font-weight: 300;color: #4299e1;}
+
+footer p a{color: #e2e8f0;font-weight: 700;}
